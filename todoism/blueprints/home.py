@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-    :author: Grey Li (李辉)
-    :url: http://greyli.com
-    :copyright: © 2018 Grey Li <withlihui@gmail.com>
-    :license: MIT, see LICENSE for more details.
-"""
+
 from flask import render_template, Blueprint, current_app, make_response, jsonify
 from flask_babel import _
 from flask_login import current_user
